@@ -1,0 +1,23 @@
+
+#! python3
+#Make Addresses Lowercase Again!
+#MinimalStructure
+
+print('''This can be used after you scan an address from a Samourai Wallet.
+
+Copy and Paste and address after scanning it to make all the letters lowercase.
+
+Then copy and paste the address
+
+Type end to stop the program.
+
+''')
+
+while True:
+   
+    address = input("What is the address?  ")
+    if address == 'end':
+        break
+   
+
+    print(address.lower())
